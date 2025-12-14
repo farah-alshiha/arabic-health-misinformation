@@ -5,7 +5,7 @@ that detects health misinformation in Arabic social-media posts by jointly
 analyzing tweet text, OCR-extracted image text, and visual content.
 
 <p align="center">
-  <img src="assets/pipeline.png" width="90%" alt="Pipeline overview"/>
+  <img src="pipeline.png" width="90%" alt="Pipeline overview"/>
 </p>
 
 <p align="center">
