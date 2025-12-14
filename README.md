@@ -81,7 +81,39 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+## Configuration
+```bash
+# Create a .env file in the project root
+TWITTERAPI_KEY=your_twitterapi_io_key
+OPENAI_API_KEY=your_openai_key
+```
+
 ## Running the Full Pipeline
 ```bash
+# run pipeline
 python3 -m src.run_pipeline
 ```
+
+## Experiments
+All experiments are reproducible via the notebooks in notebooks/:
+- CLIP + AraBERT embeddings
+- Multimodal classification
+- Error analysis
+- Visualization (class distribution, confusion matrix)
+
+## Citation
+If you use this code or dataset, please cite:
+```bash
+@inproceedings{alshiha2025multimodal,
+  title={The Image Behind the Claim: Multimodal Detection of Arabic Health Misinformation},
+  author={Alshiha, Farah and others},
+  booktitle={IEEE Conference Proceedings},
+  year={2025}
+}
+```
+
+## Acknowledgments
+- OpenAI (CLIP)
+- AraBERT authors
+- TwitterAPI.io
+- Arabic fact-checking initiatives (Misbar, Fatabyyano)
