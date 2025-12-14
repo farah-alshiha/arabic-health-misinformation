@@ -29,7 +29,7 @@ The codebase emphasizes reproducibility, modularity, and alignment with academic
 1. Tweet Collection: Arabic health-related tweets are collected using TwitterAPI.io, targeting medical, wellness, parenting, and lifestyle claims.
 2. Media Filtering & Image Download: Tweets are filtered to retain only posts containing images. Images are downloaded locally and indexed.
 3. OCR Extraction: Text embedded inside images is extracted using Tesseract
-4. LLM-Assisted Labeling**Tweets are labeled as *true*, *false*, or *misleading* using a medically constrained LLM prompt aligned with public-health consensus.
+4. LLM-Assisted Labeling: Tweets are labeled as *true*, *false*, or *misleading* using a medically constrained LLM prompt aligned with public-health consensus.
 5. Text Preprocessing (AraBERT-Compatible):
     *   Unicode normalization
     *   Diacritic removal
