@@ -1,0 +1,36 @@
+# Core Python utilities
+python-dotenv>=1.0.0
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Data handling
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Image handling & OCR
+Pillow>=9.5.0
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+easyocr>=1.7.0
+python-bidi>=0.4.2
+
+# NLP & transformers
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0
+sentencepiece>=0.1.99
+
+# CLIP (installed from source)
+git+https://github.com/openai/CLIP.git
+
+# Arabic text processing
+regex>=2023.0.0
+
+# Visualization & UI
+matplotlib>=3.7.0
+streamlit>=1.28.0
+
+# Deduplication / hashing
+simhash>=2.1.2
+ImageHash>=4.3.1
